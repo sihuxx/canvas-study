@@ -110,3 +110,11 @@ function animate(timestamp) {
 }
 
 requestAnimationFrame(animate)
+
+/* 
+         -90도 (위) ← 12시!
+          ↑
+180도 ←   ·   → 0도 (3시)
+          ↓
+         90도 (아래)
+*/

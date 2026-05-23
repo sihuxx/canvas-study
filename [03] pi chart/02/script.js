@@ -23,7 +23,7 @@ let startTime
 
 function render(progress) {
   ctx.clearRect(0, 0, canvas.width, canvas.height)
-  let current = -Math.PI
+  let current = -Math.PI / 2
 
   data.forEach(({k,v,c}) => {
     const angle = (v / total) * Math.PI * 2

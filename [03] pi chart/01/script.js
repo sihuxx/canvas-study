@@ -10,7 +10,7 @@ const data = [
 ]
 const total = data.reduce((acc, cur) => acc + cur.value, 0) // 데이터 value 총합 구함
 const radius = 200 // 반지름
-let current = -Math.PI // arc는 3시 방향에서 시작 (-180도 -> 3시 방향)
+let current = -Math.PI / 2 // -> 12시 방향 (위쪽에서 시작)
 
 function render() {
   data.forEach(({color, value}, i) => {
