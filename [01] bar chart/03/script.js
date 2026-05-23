@@ -8,7 +8,7 @@ const duration = 1000
 let startTime
 
 function render(progress) {
-  console.log(progress)
+  ctx.clearRect(0, 0, canvas.width, canvas.height)
 
   data.forEach((e, i) => {
     ctx.fillRect(
