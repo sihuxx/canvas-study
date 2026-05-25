@@ -17,7 +17,7 @@ function render(progress) {
       -valueToHeight(value) * progress
     )
   })
-  data.forEach(({label, value}, i) => {
+  data.forEach(({label}, i) => {
     ctx.fillText(label, sectionWidth * i + padding, canvas.height - padding + 30)
   })
 }
